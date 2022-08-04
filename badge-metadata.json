@@ -1,16 +1,16 @@
 {
     "attributes": [
       {
-        "trait_type": "Certificate",
-        "value": "Social Leader"
+        "trait_type": "Badge",
+        "value": "Good Teacher"
       },
       {
         "trait_type": "Version",
         "value": "One"
       }
     ],
-    "description": "The ultimate social leader... The best in grades and the best in social.",
-    "image": "ipfs://QmVPBL4iUPwzzFiPxXpyCzqdhL4LBvaVqW2eE3qa2zo92F",
-    "name": "Social Leader among us"
+    "description": "This NFT proves that your students are doing a great job.",
+    "image": "ipfs://QmWTAR7UiDfTgUF5n5QdrBSbj1HBpMF2u91sQBCq4mD2wK",
+    "name": "You are an awesome teacher"
   }
   

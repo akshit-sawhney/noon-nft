@@ -25,3 +25,7 @@ Certificate contract deployment address:
 
 Mint NFT Txn:
 0x17fc9e81db1e96cc310a60471c08488d7c390af21bc57d9a2a3e981dbe11ae0e
+
+
+View code on Pinata:
+https://gateway.pinata.cloud/ipfs/QmVPBL4iUPwzzFiPxXpyCzqdhL4LBvaVqW2eE3qa2zo92F
