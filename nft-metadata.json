@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Sport",
+        "value": "Football"
+      },
+      {
+        "trait_type": "Background",
+        "value": "White"
+      }
+    ],
+    "description": "The world's best football club.",
+    "image": "ipfs://QmccnXCzhccHvuwWaky2TbLMQYitGTFQWkQDwUVwCaMxAT",
+    "name": "Real Madrid"
+  }
+  
