@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Badge",
+        "value": "Good Teacher"
+      },
+      {
+        "trait_type": "Version",
+        "value": "One"
+      }
+    ],
+    "description": "This NFT proves that your students are doing a great job.",
+    "image": "ipfs://QmWTAR7UiDfTgUF5n5QdrBSbj1HBpMF2u91sQBCq4mD2wK",
+    "name": "You are an awesome teacher"
+  }
+  

@@ -18,3 +18,14 @@ https://gateway.pinata.cloud/ipfs/QmfAnCBZaR7oYzkecTA7dHQ8UwxRaZxU2GvgiYSe6DB4VF
 
 NFT Minting transaction hash
 0x37add43d087d1469346207025f97702817b8c2669be8650d606a58692259e7de
+
+
+Certificate contract deployment address:
+0x99Febfa55d3884C1be34DA6f2B16fcFe99d6fc7B
+
+Mint NFT Txn:
+0x17fc9e81db1e96cc310a60471c08488d7c390af21bc57d9a2a3e981dbe11ae0e
+
+
+View code on Pinata:
+https://gateway.pinata.cloud/ipfs/QmVPBL4iUPwzzFiPxXpyCzqdhL4LBvaVqW2eE3qa2zo92F
