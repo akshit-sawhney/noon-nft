@@ -14,7 +14,8 @@ const mintedNfts =
             ],
             description: "This NFT proves that your students are doing a great job.",
             image: "ipfs://QmWTAR7UiDfTgUF5n5QdrBSbj1HBpMF2u91sQBCq4mD2wK",
-            name: "You are an awesome teacher"
+            name: "You are an awesome teacher",
+            cid: "ipfs://QmW2JaUZR9RDVcfwVAc9EgMDLQa8L8pGwwG5XnL7GUEdRf"
         },
         {
             id: 2,
@@ -30,7 +31,8 @@ const mintedNfts =
             ],
             description: "The world's best football club.",
             image: "ipfs://QmccnXCzhccHvuwWaky2TbLMQYitGTFQWkQDwUVwCaMxAT",
-            name: "Real Madrid"
+            name: "Real Madrid",
+            cid: "ipfs://QmW2JaUZR9RDVcfwVAc9EgMDLQa8L8pGwwG5XnL7GUEdRf"
         }
 
 
