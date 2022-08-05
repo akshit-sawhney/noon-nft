@@ -6,8 +6,8 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/BadgeNFT.sol/BadgeNFT.json")
-const contractAddress = "0x99Febfa55d3884C1be34DA6f2B16fcFe99d6fc7B"
+const contract = require("../artifacts/contracts/ApeNFT.sol/ApeNFT.json")
+const contractAddress = "0xDd39F71038a637074835437ECC6CfFB5fe5934E1"
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
 async function mintNFT(tokenURI) {
@@ -19,7 +19,7 @@ async function mintNFT(tokenURI) {
   const tx = {
     from: PUBLIC_KEY,
     to: contractAddress,
-    nonce: 1,
+    nonce: nonce,
     gas: 500000,
     data: nftContract.methods.mintNFT(PUBLIC_KEY, tokenURI).encodeABI(),
   }
@@ -50,4 +50,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT("ipfs://QmW2JaUZR9RDVcfwVAc9EgMDLQa8L8pGwwG5XnL7GUEdRf")
+mintNFT("ipfs://QmV9UDagNpQyTyfMcehHWPgnoJwQvhYHnVJbDoti7hqyo3")
