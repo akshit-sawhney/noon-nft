@@ -4,6 +4,8 @@
   "description": "Noon NFT",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
+    "local": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +28,14 @@
     "@alch/alchemy-web3": "^1.4.6",
     "@openzeppelin/contracts": "^4.7.2",
     "axios": "^0.27.2",
-    "dotenv": "^16.0.1"
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ethereumjs-util": "^7.1.5",
+    "express": "^4.18.1",
+    "knex": "^2.2.0",
+    "moment": "^2.29.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19"
   }
 }
