@@ -2,15 +2,15 @@
     "attributes": [
       {
         "trait_type": "Badge",
-        "value": "Good Teacher"
+        "value": "Super Student"
       },
       {
         "trait_type": "Version",
         "value": "One"
       }
     ],
-    "description": "This NFT proves that your students are doing a great job.",
-    "image": "ipfs://QmWTAR7UiDfTgUF5n5QdrBSbj1HBpMF2u91sQBCq4mD2wK",
-    "name": "You are an awesome teacher"
+    "description": "This NFT proves that you are a super student.",
+    "image": "ipfs://QmWN7Jttk9TeC5rk7q4N7ZsNt9cM2gZG8Bofoiscu5cYXj",
+    "name": "You are a super student"
   }
   

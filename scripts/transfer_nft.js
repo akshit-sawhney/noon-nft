@@ -1,13 +1,13 @@
 require("dotenv").config()
-const API_URL = process.env.API_URL; //the alchemy app url
-const PUBLIC_KEY = process.env.PUBLIC_KEY; //my metamask public key
-const PRIVATE_KEY = process.env.PRIVATE_KEY;//my metamask private key
+const API_URL = process.env.API_URL; 
+const PUBLIC_KEY = process.env.PUBLIC_KEY; 
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const {createAlchemyWeb3} = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
-const contract = require("../artifacts/contracts/BadgeNFT.sol/BadgeNFT.json")//this is the contract created from ethereum example site
+const contract = require("../artifacts/contracts/BadgeNFT.sol/BadgeNFT.json")
 
-const contractAddress = "0x99febfa55d3884c1be34da6f2b16fcfe99d6fc7b" // put here the contract address
+const contractAddress = "0x7f8fcf0d17ce06d159a7708bd0067c613b60c784"
 
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
@@ -19,14 +19,14 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
  * @returns {Promise<void>}
  */
 async function exchange(tokenID, to) {
-    const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY,         'latest');
+    const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest');
 //the transaction
 const tx = {
     'from': PUBLIC_KEY,
     'to': contractAddress,
     'nonce': nonce,
     'gas': 500000,
-    'input': nftContract.methods.safeTransferFrom(PUBLIC_KEY, to, tokenID).encodeABI() //I could use also transferFrom
+    'input': nftContract.methods.safeTransferFrom(PUBLIC_KEY, to, tokenID).encodeABI() 
 };
 const signPromise = web3.eth.accounts.signTransaction(tx, PRIVATE_KEY)
 
@@ -71,4 +71,4 @@ signPromise
     })
 }
 
-exchange(1, "0x49d89FE7381471De1D08C9930e4A3c6473E951C8");
+exchange(1, "0xA5a2fc838c5345C1798866F593C9a887F795B44d");
