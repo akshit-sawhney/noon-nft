@@ -2,15 +2,15 @@
     "attributes": [
       {
         "trait_type": "Badge",
-        "value": "Listen"
+        "value": "Trust me"
       },
       {
         "trait_type": "Version",
         "value": "One"
       }
     ],
-    "description": "Don't listen to this student.",
-    "image": "ipfs://QmdKWALerWHkhUyXhGnDvi48z7ts7inaTjPpkBM896J4rn",
-    "name": "Listen"
+    "description": "Trust me I've got a degree.",
+    "image": "ipfs://QmSWya7yQ8VoupXX5Mg57d31WyZCBRoCaBfQ2WcVeuDRhk",
+    "name": "Trust me"
   }
   
