@@ -14,6 +14,8 @@ router.use(bodyParser.urlencoded({
 router.get('/minted_nfts', nftsController.getMintedNFTs)
 router.get('/consumed_nfts', nftsController.getConsumedNFTs)
 router.post('/consume_nft', nftsController.consumeNFT)
+router.post('/mint_nft', nftsController.mintNFT)
+router.post('/transfer_nft', nftsController.transferNFT)
 
 
 module.exports = router;

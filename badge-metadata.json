@@ -2,15 +2,15 @@
     "attributes": [
       {
         "trait_type": "Badge",
-        "value": "Police Grammer"
+        "value": "Listen"
       },
       {
         "trait_type": "Version",
         "value": "One"
       }
     ],
-    "description": "This NFT proves that you are superb at Grammer.",
-    "image": "ipfs://QmPFkFKbHecWFhZnChCanzq9pwAMB75berxMxNwFZz63p3",
-    "name": "Police Grammer"
+    "description": "Don't listen to this student.",
+    "image": "ipfs://QmdKWALerWHkhUyXhGnDvi48z7ts7inaTjPpkBM896J4rn",
+    "name": "Listen"
   }
   

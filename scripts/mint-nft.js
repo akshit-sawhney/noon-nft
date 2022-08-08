@@ -12,7 +12,7 @@ const contract = require("../artifacts/contracts/BadgeNFT.sol/BadgeNFT.json")
 const contractAddress = process.env.CONTRACT_ADDRESS;
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
-async function mintNFT(tokenURI) {
+exports.mintNFT = async (tokenURI) =>  {
   console.log('here');
   const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest") //get latest nonce
   console.log(nonce);
@@ -52,4 +52,4 @@ async function mintNFT(tokenURI) {
     })
 }
 
-mintNFT(NFT_IPFS_CID)
+// mintNFT(NFT_IPFS_CID)
