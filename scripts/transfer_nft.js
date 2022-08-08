@@ -19,7 +19,7 @@ const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
  * @param to the metamask address will own the NFT
  * @returns {Promise<void>}
  */
-async function exchange(tokenID, to) {
+exports.exchange = async (tokenID, to) => {
     const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, 'latest');
 //the transaction
 const tx = {
@@ -72,4 +72,4 @@ signPromise
     })
 }
 
-exchange(1, RECEIVER_PUBLIC_ADDRESS);
+// exchange(1, RECEIVER_PUBLIC_ADDRESS);
