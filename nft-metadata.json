@@ -1,16 +1,16 @@
 {
     "attributes": [
       {
-        "trait_type": "Sport",
-        "value": "Football"
+        "trait_type": "Certificate",
+        "value": "Social Leader"
       },
       {
-        "trait_type": "Background",
-        "value": "White"
+        "trait_type": "Version",
+        "value": "One"
       }
     ],
-    "description": "The world's best football club.",
-    "image": "ipfs://QmccnXCzhccHvuwWaky2TbLMQYitGTFQWkQDwUVwCaMxAT",
-    "name": "Real Madrid"
+    "description": "You have been a social leader. Congrats!",
+    "image": "ipfs://QmaGCVQwi2Ndeyo4h2Ha8goJwbgzRmuP1ntXVt1r8zyyPx",
+    "name": "Social Leader"
   }
   

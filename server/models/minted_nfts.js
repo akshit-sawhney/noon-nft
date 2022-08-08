@@ -2,20 +2,20 @@ const mintedNfts =
     [
         {
             id: 1,
+            contract_address: "0x4Ce3F76C576eaF22388d8861e70fb22472f137Cf",
             attributes: [
                 {
-                    "trait_type": "Badge",
-                    "value": "Good Teacher"
+                    trait_type: "Badge",
+                    value: "Super Student"
                 },
                 {
-                    "trait_type": "Version",
-                    "value": "One"
+                    trait_type: "Version",
+                    value: "One"
                 }
-            ],
-            description: "This NFT proves that your students are doing a great job.",
-            image: "ipfs://QmWTAR7UiDfTgUF5n5QdrBSbj1HBpMF2u91sQBCq4mD2wK",
-            name: "You are an awesome teacher",
-            cid: "ipfs://QmW2JaUZR9RDVcfwVAc9EgMDLQa8L8pGwwG5XnL7GUEdRf"
+              ],
+              description: "This NFT proves that you are a super student.",
+              image: "ipfs://QmWN7Jttk9TeC5rk7q4N7ZsNt9cM2gZG8Bofoiscu5cYXj",
+              name: "You are a super student"
         },
         {
             id: 2,
