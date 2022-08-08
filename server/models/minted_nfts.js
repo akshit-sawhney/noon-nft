@@ -2,7 +2,7 @@ const mintedNfts =
     [
         {
             id: 1,
-            contract_address: "0x7f8fcf0d17ce06d159a7708bd0067c613b60c784",
+            contract_address: "0x4Ce3F76C576eaF22388d8861e70fb22472f137Cf",
             attributes: [
                 {
                     trait_type: "Badge",

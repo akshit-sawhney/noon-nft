@@ -2,12 +2,13 @@ require("dotenv").config()
 const API_URL = process.env.API_URL; 
 const PUBLIC_KEY = process.env.PUBLIC_KEY; 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const RECEIVER_PUBLIC_ADDRESS = process.env.RECEIVER_PUBLIC_ADDRESS;
 const {createAlchemyWeb3} = require("@alch/alchemy-web3")
 const web3 = createAlchemyWeb3(API_URL)
 
 const contract = require("../artifacts/contracts/BadgeNFT.sol/BadgeNFT.json")
 
-const contractAddress = "0x7f8fcf0d17ce06d159a7708bd0067c613b60c784"
+const contractAddress = process.env.CONTRACT_ADDRESS;
 
 const nftContract = new web3.eth.Contract(contract.abi, contractAddress)
 
@@ -71,4 +72,4 @@ signPromise
     })
 }
 
-exchange(1, "0xA5a2fc838c5345C1798866F593C9a887F795B44d");
+exchange(1, RECEIVER_PUBLIC_ADDRESS);
